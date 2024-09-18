@@ -11,6 +11,13 @@ public class Program {
 
         d.fn();
 
-        //Test commit
+        // static method(deosn't belong to the object)
+        Idemo1.f1();
+
+        Idemo1 d1 = new Demo();
+        //d1.Display();
+        d1.Print();
+
+        
     }
 }

@@ -11,6 +11,7 @@ public class Demo implements Idemo1, Idemo2{
         System.out.println("Display Function");
     }
     
+    // common function
     @Override
     public void fn(){
         Idemo1.super.fn();
